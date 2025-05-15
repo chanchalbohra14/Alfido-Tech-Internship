@@ -1,71 +1,91 @@
-body {
-  margin: 0;
-  height: 100vh;
+.todo {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
-  background: #f0f0f0;
+  margin-top: 80px;
+}
+.todo-container {
+  margin: 2rem auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.App {
-  background: #fff;
-  padding: 20px;
-  width: 100%;
-  max-width: 400px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #ccc;
+.todo-title {
   text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
 }
 
 .todo-form {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 8px;
 }
 
-.todo-form input {
+.todo-input {
   flex: 1;
   padding: 8px;
-  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.todo-form button {
+.todo-add-button {
   padding: 8px 12px;
-  background: #4caf50;
-  color: white;
   border: none;
+  background-color: #007bff;
+  color: white;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-ul {
+.todo-add-button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list {
   list-style: none;
   padding: 0;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #f9f9f9;
-  margin-bottom: 10px;
-  padding: 8px 12px;
-  border-radius: 4px;
+  margin-top: 16px;
 }
 
 .todo-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  flex: 1;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 8px;
+  border-radius: 6px;
 }
 
-li button {
-  background: #e53935;
-  color: white;
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
+
+.todo-text {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.todo-delete-button {
+  padding: 4px 8px;
   border: none;
-  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.todo-delete-button:hover {
+  background-color: #a71d2a;
 }
