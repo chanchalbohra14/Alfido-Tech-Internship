@@ -28,6 +28,8 @@ Edit
 
 ## ✅ Task 1: React Counter App
 
+deployed link: https://task1-react-counter-app.netlify.app/
+
 A simple counter app built using React state hooks.
 
 ### Features:
