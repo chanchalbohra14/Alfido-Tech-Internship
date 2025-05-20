@@ -53,6 +53,8 @@ A simple counter app built using React state hooks.
 
 ## ✅ Task 2: Todo List App with Local Storage
 
+deployed link: https://task2-react-todo-list-with-hooks.netlify.app/
+
 An advanced Todo app that lets you add, delete, and mark tasks as completed. Data is saved to localStorage to persist across refreshes.
 
 ### Features:
@@ -79,6 +81,8 @@ An advanced Todo app that lets you add, delete, and mark tasks as completed. Dat
 
 ## ✅ Task 3: React Router Navigation
 
+deployed link: https://task3-react-router-navigation.netlify.app/
+
 A basic multipage application using React Router for page navigation between Home, About, and Contact pages.
 
 ### Pages:
@@ -100,6 +104,8 @@ A basic multipage application using React Router for page navigation between Hom
 ---
 
 ## ✅ Task 4: Fetch API Data
+
+deployed link: https://task4-fetch-api-data.netlify.app/
 
 An app that fetches user data from a public API and displays it in a neatly formatted table.
 
